@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(151, 150, 240, 1),
+    rgba(251, 199, 212, 1)
+  );
+}
+h1 {
+  font-size: 50px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #28272e;
+}
+
+.input-box {
+  min-height: 10vh;
+  max-width: 20vw;
+  border: 3px solid #28272e;
+  border-radius: 10px;
+  outline: none;
+  font-size: 24px;
+  padding: 0 20px;
+  margin: 10px auto;
+}
+
+.output {
+  margin: 20px auto;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.input-list {
+  max-width: 60vw;
+  margin: 20px auto;
+  font-size: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-list span {
+  cursor: pointer;
+  padding: 10px;
+}
